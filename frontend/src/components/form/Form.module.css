@@ -1,0 +1,109 @@
+.form_container {  
+  max-width: 300px;
+  margin: 0 auto;
+  /*text-align: center;*/
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.form_container h2 {
+  margin-left: -7.0vh;
+  margin-top: 150px;
+  width: 430px;
+  color: rgb(41, 41, 241);
+
+}
+
+.form_container h1 {  
+  margin-left: -7.0vh;
+  margin-top: 100px;
+  width: 430px;
+  color: rgb(41, 41, 241);
+
+}
+
+.form_container input[type='submit'] {
+  border-radius: 8px;
+  background-color: rgb(41, 41, 241);
+  color: #fff;
+  border: none;
+  min-width: 100px;
+  min-height: 2.5rem;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.form_container input[type='submit']:hover {
+  background-color: rgb(224, 10, 10);  
+}
+
+.form_container p {
+  margin-top: 1em;
+}
+
+.form_container p a {
+  justify-content: center;
+  color: rgb(41, 41, 241);
+  font-weight: bold;
+}
+
+/* form de pets */
+.preview_pet_images {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.preview_pet_images img {
+  width: 100px;
+  height: 100px;
+  margin-left: 1em;
+}
+
+/*icons*/
+.icons_envelope {
+  display: flex;
+  margin: 0.5em;
+  justify-content: right;
+  align-items: right ;
+  list-style: none;
+}
+
+.icons_envelope li {
+  margin-top: -2.6rem;
+  color: rgb(41, 41, 241);
+}
+
+.icons_key {
+  display: flex;
+  margin: 0.5em;
+  justify-content: right;
+  align-items: right ;
+  list-style: none;
+}
+
+.icons_key li {
+  margin-top: -2.6rem;
+  color: rgb(41, 41, 241);
+}
+
+.icons_eye {
+  display: flex;
+  margin: 0.4em;
+  justify-content: right;
+  align-items: right ;
+  list-style: none;
+}
+
+.icons_eye li {
+  margin-top: -2.5rem;
+  color: rgb(41, 41, 241);
+}
+
+.form_control select {
+  padding: 0.7em;
+  border: 1px solid #777;
+  border-radius: 5px;
+}
